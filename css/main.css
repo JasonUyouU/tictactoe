@@ -14,7 +14,7 @@ table {
   left: 50%;
   /*the table is 310px so margin-left: -155px to make sure the table is centered*/
   margin-left: -155px;
-  top: 50px;
+  top: 100px;
 }
 
 table tr:first-child td {
@@ -32,7 +32,13 @@ table tr td:first-child {
 table tr td:last-child {
   border-right: 0;
 }
-
+.buttonDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+.buttonDiv button {
+  cursor: pointer;
+}
 .endgame {
   display:none;
   position: absolute;
